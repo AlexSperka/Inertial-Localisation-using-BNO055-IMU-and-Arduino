@@ -121,7 +121,7 @@ Alt = DATA.Altitude;
 
 else
     
-waitfor(errordlg('Keine Höhendaten vorhanden!','File Error'));
+waitfor(errordlg('Keine HÃ¶hendaten vorhanden!','File Error'));
 Alt=zeros(length(rotm),1);
  
 end
@@ -134,11 +134,11 @@ pos=zeros(3,1);
 %-----------Vektor Plot (mit Waitbar)-------------------------------
 %-----------Erstellen Waitbar Bedingungen---------------------------
 
-wb = waitbar(0,'Berechnung läuft...','CreateCancelBtn','setappdata(gcbf,''cancel'',1)');
+wb = waitbar(0,'Berechnung lÃ¤uft...','CreateCancelBtn','setappdata(gcbf,''cancel'',1)');
 wbend = length(rotm)-1;
 canceled = 0;
 
-%-----------For-Schleife für Integration----------------------------
+%-----------For-Schleife fÃ¼r Integration----------------------------
 b=0;
 Abrolldist=2400/8;
 
@@ -159,7 +159,7 @@ for i=1:length(rotm)-1
 
 end
 
-%----------Darstellung über Plot-----------------------------------
+%----------Darstellung Ã¼ber Plot-----------------------------------
 
 axes(handles.axes1);
 plot3(pos(1,:),pos(2,:), Alt(:));
