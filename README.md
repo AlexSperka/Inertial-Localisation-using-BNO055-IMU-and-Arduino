@@ -31,4 +31,4 @@ Diese Daten können je nach Verwendungszweck und erfoderlichen Genauigkeit noch 
 
 Auszug aus dem Fazit:
 
-    Als  überaus  erfolgreich  kann  man  die  Darstellung  der  isolierten  Yaw  Achse  betrachten. Hierbei  ist  es  gelungen,  bei  einem   Rundkurs  beliebiger  Form  im  günstigsten  Fall  eine Maximalabweichung von 0,08% zwischen Start und Endpunkt zu erreichen (bezogen auf  die gesamte Strecke).
+  Als  überaus  erfolgreich  kann  man  die  Darstellung  der  isolierten  Yaw  Achse  betrachten. Hierbei  ist  es  gelungen,  bei  einem   Rundkurs  beliebiger  Form  im  günstigsten  Fall  eine Maximalabweichung von 0,08% zwischen Start und Endpunkt zu erreichen (bezogen auf  die gesamte Strecke).
